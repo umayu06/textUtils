@@ -1,0 +1,75 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navBar{
+  box-sizing: border-box;
+  display: flex;
+  position: sticky;
+  top: 0.5px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgb(227, 234, 241);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav.navBar > h4 {
+  margin: 0.5em auto 0.5em 0.5em; 
+  font-weight: 500;
+  font-size: 1.4em;
+  letter-spacing: 0.08em;
+}
+.main {
+  margin: 0.5em 10em;
+  padding-bottom: 1.6em;
+}
+header > h1 {
+  letter-spacing: 0.04em;
+  font-size: 2em;
+  margin: 0.6em 0;
+  color: rgb(4, 39, 67);
+  font-weight: 500;
+}
+.editor{
+  display: flex;
+  flex-direction: column;
+}
+textarea{
+  display: block;
+  width: inherit;
+  margin: auto 0;
+  font-size: 1.5em;
+  color: rgb(58, 58, 65);
+  border: 0.005em solid rgb(80, 79, 79);
+  border-radius: 0.5em;
+}
+textarea:focus {
+  outline: none;
+}
+.buttonsWrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin: 0.5em 0;
+}
+.buttonsWrap > button {
+  margin: 0.2em 0.5em;
+  padding: 1em;
+  color: white;
+  letter-spacing: 0.06em;
+  background-color: rgb(42, 146, 231);
+  border: 0.03em solid rgb(39, 133, 211);
+  border-radius: 1em;
+  cursor: pointer;
+  box-shadow: 0 2px #999;
+}
+.buttonsWrap > button:active {
+  box-shadow: 0 0px #999;
+  background-color: rgb(33, 121, 192);
+}
+section > h2 {
+  margin: 0.5em auto;
+}
