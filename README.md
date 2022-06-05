@@ -7,6 +7,9 @@ A simple text editor with following functionalities:
 * trim text
 * copy text
 * clear text
+* character counter
+* word counter
+* read time calculator
 
 ## 🏃‍♂️ How to run
 
